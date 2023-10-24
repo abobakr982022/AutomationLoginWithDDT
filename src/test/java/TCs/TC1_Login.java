@@ -14,7 +14,7 @@ public class TC1_Login extends Base {
     @DataProvider(name = "loginDDT")
     public static Object[][] Cradintals(){
         return new Object[][]{
-                {"student","Password123"},{"pPassword123","student"}
+                {"student","Password123"},{"Password123","student"}
         };
     }
 
